@@ -1,0 +1,18 @@
+{
+    "model": "JGCN",
+    "optimizer": "Adam",
+    "workspace_path": "./workspace/pubmed",
+    "dataset": "pubmed",
+    "device": "cuda",
+    "epochs": 500,
+    "lr": 0.1,
+    "lr_step": 100,
+    "lr_decay": 0.8,
+    "weight_decay": 0.0005,
+    "lambda": 0.0001,
+    "dp_input": 0.5,
+    "dp_output": 0.5,
+    "keep_adj": 1,
+    "keep_node": 1,
+    "comment": "Semi-supervised node classification for citation network"
+}

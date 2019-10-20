@@ -1,0 +1,18 @@
+{
+    "model": "JGCN",
+    "optimizer": "Adam",
+    "workspace_path": "./workspace/citeseer",
+    "dataset": "citeseer",
+    "device": "cuda",
+    "epochs": 500,
+    "lr": 0.1,
+    "lr_step": 500,
+    "lr_decay": 1.0,
+    "weight_decay": 0.0005,
+    "lambda": 0.0001,
+    "dp_input": 0,
+    "dp_output": 0.5,
+    "keep_adj": 1,
+    "keep_node": 1,
+    "comment": "Semi-supervised node classification for citation network"
+}
